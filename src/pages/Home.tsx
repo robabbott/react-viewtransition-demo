@@ -14,7 +14,7 @@ const Home = () => {
       <div className="block">
         <h3>Features</h3>
         <ul className="list">
-          <li>Built on the browser <a href="https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API" target="_blank">View Transitions</a> API</li>
+          <li>Built on the browser <a href="https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API" target="_blank">View Transition</a> API</li>
           <li>Animates state changes, not elements</li>
           <li>Native performance from browser handling compositing</li>
           <li>Minimal code, no timing coordination</li>

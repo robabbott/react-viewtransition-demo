@@ -1,0 +1,24 @@
+.custom-example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  width: 600px;
+  height: 300px;
+}
+
+::view-transition-old(custom-slide) {
+  animation: slide-out 500ms ease forwards;
+}
+::view-transition-new(custom-slide) {
+  animation: slide-in 500ms ease forwards;
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(100%); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes slide-out {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(-100%); }
+}

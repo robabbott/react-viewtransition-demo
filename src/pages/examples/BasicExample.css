@@ -1,0 +1,15 @@
+.basic-example {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+}
+
+.example-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 300px;
+  width: 300px;
+}
